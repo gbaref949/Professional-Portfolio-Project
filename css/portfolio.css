@@ -1,0 +1,64 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(235, 207, 238);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position: relative;
+    border-radius: 50%;
+    top: 3rem;
+    left: 37rem;
+}
+
+/* make the logo do cursor as pointer */
+p {
+    color: rgb(34, 31, 31);
+
+}
+
+.bannerWords {
+    text-shadow: #ceacbd 4px 4px;
+    font-size: 45px;
+    /* text-align: center; */
+    font-family: "Brush Script MT";
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+
+.home-a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-b {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfolio-c {
+    position: relative;
+    text-align: center;
+}
+
+.services-d {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-e {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {}

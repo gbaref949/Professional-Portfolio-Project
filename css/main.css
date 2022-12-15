@@ -1,0 +1,121 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(235, 207, 238);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+   position: relative;
+    border-radius: 50%;
+    top: 3rem;
+    left: 37rem;
+    /* box-shadow: 0 4em 4em 0 rgb(214, 67, 243); */
+    box-shadow: inset 0 0 3em #fff,
+        /* inner white */
+        inset 2em 0 4em #f0f,
+        /* inner left magenta short */
+        inset -2em 0 4em rgb(140, 0, 255),
+        /* inner right cyan short */
+        inset 2em 0 8em #f0f,
+        /* inner left magenta broad */
+        inset -2em 0 8em rgb(174, 0, 255),
+        /* inner right cyan broad */
+        0 0 3em #fff,
+        /* outer white */
+        -1em 0 4em #f0f,
+        /* outer left magenta */
+        1em 0 4em rgb(162, 0, 255);
+        /* outer right cyan */;
+}
+/* make the logo do cursor as pointer */
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.luminaire:hover {
+    cursor: pointer;
+}
+
+.luminaire::before,
+.luminaire::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0;
+    opacity: 0;
+    transition: opacity 8s, transform 8s;
+}
+
+.on {
+    background-color: #fff;
+    box-shadow: 0 0 80px 40px #fff, 0 0 200px 100px #f0f;
+}
+
+.on::before {
+    transform: translateX(-100px);
+    opacity: 1;
+}
+
+.on::after {
+    transform: translateX(100px);
+    opacity: 1;
+}
+
+p{
+    color: rgb(34, 31, 31);
+
+}
+.bannerWords {
+    text-shadow: 4px 4px #ceacbd;
+    font-size: 45px;
+    /* text-align: center; */
+    font-family: "Brush Script MT";
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+.home-a {
+    position: relative;
+    text-align: center;
+}
+
+.about-b {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfolio-c {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.services-d {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-e {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+}
