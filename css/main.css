@@ -40,12 +40,12 @@ body {
     }
 }
 
-.luminaire:hover {
+.logo1:hover {
     cursor: pointer;
 }
 
-.luminaire::before,
-.luminaire::after {
+.logo1::before,
+.logo1::after {
     content: '';
     display: block;
     position: absolute;
@@ -94,12 +94,6 @@ p{
 }
 
 .about-b {
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-}
-
-.portfolio-c {
     position: relative;
     text-align: center;
     text-decoration: none;

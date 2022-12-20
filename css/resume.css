@@ -9,11 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo {
+.img{
     position: relative;
-    border-radius: 50%;
-    top: 3rem;
-    left: 37rem;
+    top: -1rem;
+    left: 0rem;
 }
 
 /* make the logo do cursor as pointer */
@@ -44,15 +43,10 @@ p {
     text-decoration: none;
 }
 
-.portfolio-c {
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-}
-
 .services-d {
     position: relative;
     text-align: center;
+
 }
 
 .contact-e {

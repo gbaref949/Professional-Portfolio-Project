@@ -3,17 +3,41 @@ html {
     padding: 0;
     scroll-behavior: smooth;
     background-color: rgb(235, 207, 238);
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.logo {
-    position: relative;
-    border-radius: 50%;
-    top: 3rem;
-    left: 37rem;
+fieldset{
+    background-color:#c6b4d4;
+    border-color: transparent;
+}
+
+legend{
+    font-size: 32px;
+    color:rgb(34, 31, 31);
+    font-family:monospace;
+}
+
+.header{
+    font-family: 'Brush Script MT'; 
+    text-align: center;
+}
+
+h1{
+    color: #AE72F2;
+    text-shadow: #1F0E19 5px 5px; 
+    font-size: 80px;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 18px;
+    color: rgb(34, 31, 31);
+    font-family: monospace;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* make the logo do cursor as pointer */
@@ -39,12 +63,6 @@ p {
 }
 
 .about-b {
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-}
-
-.portfolio-c {
     position: relative;
     text-align: center;
     text-decoration: none;
