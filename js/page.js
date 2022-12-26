@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   The color effects and animation are done via CSS. This bit of JavaScript just lets you toggle the logo1 and turns a few on to start.
 */
@@ -12,3 +13,5 @@
 //     });
 //   });
 // }
+=======
+>>>>>>> parent of a42341f (Created an aura around the logo)
