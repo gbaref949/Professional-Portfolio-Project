@@ -10,7 +10,7 @@
     <meta name="author" content="Georgiana Barefield">
 
     <meta property="og:image" content="https://skilledev.com/wp-content/uploads/2022/08/image.png">
-    <meta property="og:description" content="A description of Georgiana Barefield as developer">
+    <meta property="og:description " content="A description of Georgiana Barefield as developer">
     <meta property="og:title" content="Title">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="icon" href="./images/cd (1).png" type="image/x-icon">
@@ -19,52 +19,88 @@
 </head>
 
 <body>
-<header>
-    <div class="bannerWords">
-        <a class="home-a" href="./index.html">
-            <p>Home</p>
-        </a>
-        <a class="about-b" href="./about.html">
-            <p>About</p>
-        </a>
-        <a class="services-d" href="./resume.html">
-            <p>Resume</p>
-        </a>
-        <a class="contact-e" href="./contact.html">
-            <p>Contact</p>
-        </a>
+    <header>
+        <div class="bannerWords bannerWords-a">
+            <a class="home-a" href="./index.html">
+                <p>Home</p>
+            </a>
+            <a class="about-b" href="./about.html">
+                <p>About</p>
+            </a>
+            <a class="portfolio-c" href="./portfolio.html">
+                <p>Portfolio</p>
+            </a>
+            <a class="resume-d" href="./resume.html">
+                <p>Resume</p>
+            </a>
+            <a class="contact-e" href="./contact.html">
+                <p>Contact</p>
+            </a>
+        </div>
+    </header>
+
+    <br>
+
+    <!-- <div class="header">
+    <h1>Contact Me</h1>
+    </div> -->
+
+    <div class="container">
+        <div class="title">Contact Me</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <!-- <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" required>
+                    </div> -->
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+                    <!-- <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your password" required>
+                    </div> -->
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+                    <!-- <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your password" required>
+                    </div> -->
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit" 6href="mailto:janedoe@gmail.com">
+                </div>
+            </form>
+        </div>
     </div>
-</header>
-<br>
-
-<div class="form">
-    <form>
-    <!--#AE72F2#C1C77D#FC9FD4#A09EFA#F7E6FF#1F0E19 #fcf4dd-->
-        <fieldset>
-            <div class="header">
-                <h1>Contact Me</h1>
-            </div>
-            <!-- Everything in div class cent is for the decorated title "Contact Me"-->
-            <form>
-                <fieldset>
-                    <legend>Were you pleased with the Site?</legend>
-                    <ul>
-                        <li><input type="radio">Yes</input></li>
-                        <li><input type="radio">No</input></li>
-                    </ul>
-                </fieldset>
-            </form>
-            <form>
-                <fieldset style="width: 500px;">
-                    <legend>Please Leave Your Email</legend>
-                    <input type="text" style="height: 75px; width: 485px;">
-                </fieldset>
-            </form>
-        </fieldset>
-    </form>
-</div>
-<script src="./js/page.js"></script>
-
 </body>
 
 </html>

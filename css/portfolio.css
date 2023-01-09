@@ -14,6 +14,7 @@ body {
     border-radius: 50%;
     top: 3rem;
     left: 37rem;
+    animation: hide 2s linear 10s 1 forwards;
 }
 
 /* make the logo do cursor as pointer */
@@ -41,12 +42,12 @@ p {
 .about-b {
     position: relative;
     text-align: center;
+    text-decoration: none;
 }
 
 .portfolio-c {
     position: relative;
     text-align: center;
-    text-decoration: none;
 }
 
 .resume-d {
